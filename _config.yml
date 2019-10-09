@@ -8,42 +8,44 @@
 #baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-url: "http://daattali.github.io/beautiful-jekyll"
-baseurl: "/beautiful-jekyll"
+url: "http://mpisurvey.org"
+baseurl: ""
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Beautiful Jekyll
+title: MPI Survey
 
 # Short description of your site
-description: Quickly build a beautiful Jekyll website
+description: Survey of MPI Usage in Applications 
 
 # --- Navigation bar options --- #
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+#avatar: "/img/avatar-icon.png"
 
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Resources:
-    - Getting started: "getstarted"
-    - Featured users: "featured-users"
-    - Project page: "https://github.com/daattali/beautiful-jekyll#readme"
-  About me: "http://deanattali.com"
-  Support me: "http://deanattali.com/aboutme/#feed-meeee"
+  Programs: "programs"
+  Submit: "submit"
+#  Resources:
+#    - Submit: "submit"
+#    - Featured users: "featured-users"
+#    - Project page: "https://github.com/daattali/beautiful-jekyll#readme"
+  About: "about"
+#  Support me: "http://deanattali.com/aboutme/#feed-meeee"
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Dean Attali
-  email: "daattali@gmail.com"
+  name: 
+  email: "xxxxxxx@gmail.com"
   facebook: deanattali
-  github: daattali
+  github: LLNL/MPI-Usage
   twitter: daattali
   linkedin: "pub/dean-attali/8/946/143"
   stackoverflow: "users/3943160/daattali"
@@ -51,18 +53,18 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
+  facebook: false
   email: true
-  twitter: true
+  twitter: false
   github: true
   linkedin: false
   stackoverflow: false
   
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
