@@ -28,7 +28,7 @@ layout: page
 
 <tr> 
 <label>
-<td> Repository URL: </td>
+<td> Code URL (e.g., github repo): </td>
 <td> <input type="text" name="repo"> </td>
 </label>
  </tr>
@@ -39,11 +39,20 @@ layout: page
 <td> <input type="text" name="version"> </td>
 </label>
  </tr>
+ 
+ <tr> 
+ <label>
+ <td> Date of first release: </td>
+ <td> <input type="date" name="first_release" value="2019-11-01"
+ min="1990-01-01" max="2050-01-01"> </td>
+ </label>
+ </tr>
 
 <tr> 
 <label>
 <td> Date of latest release: </td>
-<td> <input type="text" name="release"> </td>
+<td> <input type="date" name="latest_release" value="2019-11-01"
+min="1990-01-01" max="2050-01-01"> </td>
 </label>
  </tr>
 
