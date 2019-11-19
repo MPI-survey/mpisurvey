@@ -7,8 +7,9 @@ We use static analysis to gather information about MPI usage, including MPI call
 
 A technical paper about this analysis was published at [SC19](https://sc19.supercomputing.org/). Please use the following citation when citing this survey:
 
-> Ignacio Laguna, Kathryn Mohror, Martin Ruefenacht, Ryan Marshall, Anthony Skjellum, Nawrin Sultana. A Large-Scale Study of MPI Usage in Open-Source HPC Applications. ACM/IEEE Conference for High Performance Computing, Networking, Storage and Analysis (SC19), Denver, Colorado, 2019.
+### How to Cite
 
+> Ignacio Laguna, Kathryn Mohror, Martin Ruefenacht, Ryan Marshall, Anthony Skjellum, Nawrin Sultana. A Large-Scale Study of MPI Usage in Open-Source HPC Applications. ACM/IEEE Conference for High Performance Computing, Networking, Storage and Analysis (SC19), Denver, Colorado, 2019.
 
 ### How to Submit a New Application
 
@@ -18,4 +19,4 @@ To submit a new MPI program please use [this form](/submit).
 
 ### MPI Calls Usage
 
-Martin, please add some usage statistics here
+![Feature set usage by application percentage](/app_percentage.png)
