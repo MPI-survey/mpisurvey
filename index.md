@@ -19,4 +19,4 @@ To submit a new MPI program please use [this form](/submit).
 
 ### MPI Calls Usage
 
-![Feature set usage by application percentage](/app_percentage.png)
+![Feature set usage by application percentage](/app_percentage.png =1000x)
